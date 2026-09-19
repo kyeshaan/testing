@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> test </title>
+</head>
+
+<body>
+	<h1> lets fuck around and find out </h1>
+	<p> here for testing </p>
+	
+&emsp;	<img src="https://drive.google.com/drive/u/0/folders/1ldpZcBW53tAxW7aQR0EciB6M_3B1DFJ3/cute2.jpeg" alt="cutiepie" width="200" height="200">
+	
+	<br> </br>
+
+&ensp;	<img src="https://drive.google.com/drive/u/0/folders/1ldpZcBW53tAxW7aQR0EciB6M_3B1DFJ3/cute.jpeg" alt="cutiepie" width="200" height="200">
+
+	<br> </br>
+	
+&nbsp;	<img src="https://drive.google.com/drive/u/0/folders/1ldpZcBW53tAxW7aQR0EciB6M_3B1DFJ3/cute3.jpeg" alt="cutiepie" width="200" height="200">
+
+	<br> </br>
+
+<style>
+	.center-box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate (-50%, -50%);
+	}
+</style>
+
+<video width="360" height="480" controls="controls autoplay">
+		<source src="https://drive.google.com/uc?export=download&id=1jhG4as62IMBqbkmEZp2q38v10w3CGyQw" type="video/mp4" />
+</video>
+
+<video width="360" height="480" controls>
+		<source src="baby.mp4" type="video/mp4" />
+	</video>
+
+</body>
+
+<br> </br>
+
+<body>
+	<h1> spaces </h1>
+<img src="https://i.pinimg.com/originals/15/29/d9/1529d9fdae1672c35987fc67479a99e3.jpg" width="67" height="67">
+
+</body>
+
+</html>
