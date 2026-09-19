@@ -3,43 +3,98 @@
 <html>
 
 <head>
-	<title> im trynna learn </title>
+	<title> im trynna learn shoo </title>
 </head>
 
-<body>
-	<h1> lets fuck around and find out </h1>
-	<p> here for testing </p>
-	
+<style>
+	#passwordGate {
+		max-width: 320px;
+		margin: 80px auto;
+		padding: 20px;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		font-family: Arial, sans-serif;
+		text-align: center;
+	}
+	#passwordGate input {
+		width: 100%;
+		padding: 10px;
+		margin: 10px 0;
+		box-sizing: border-box;
+	}
+	#passwordGate button {
+		padding: 10px 16px;
+		cursor: pointer;
+	}
+	#errorMessage {
+		color: red;
+		margin-top: 10px;
+		display: none;
+	}
+	#protectedContent {
+		display: none;
+	}
+</style>
+
+<script>
+	const correctPassword = "iloveyoukrissy";
+
+	function checkPassword() {
+		const passwordInput = document.getElementById("passwordInput");
+		const passwordGate = document.getElementById("passwordGate");
+		const protectedContent = document.getElementById("protectedContent");
+		const errorMessage = document.getElementById("errorMessage");
+
+		if (passwordInput.value === correctPassword) {
+			passwordGate.style.display = "none";
+			protectedContent.style.display = "block";
+			errorMessage.style.display = "none";
+		} else {
+			errorMessage.textContent = "Access denied";
+			errorMessage.style.display = "block";
+			passwordInput.value = "";
+		}
+	}
+</script>
+
+<div id="passwordGate">
+	<h2>Enter password</h2>
+	<input id="passwordInput" type="password" placeholder="Password" />
+	<button type="button" onclick="checkPassword()">Enter</button>
+	<p id="errorMessage">Access denied</p>
+</div>
+
+<div id="protectedContent">
+	<body>
+		<h1> lets fuck around and find out </h1>
+		<p> here for testing </p>
+		
 &emsp;	<img src="cuties/4.jpeg" alt="cutiepie" width="67" height="67">
-	
-	<br> </br>
+		
+		<br> </br>
 
 &ensp;	<img src="cuties/3.jpeg" alt="cutiepie" width="67" height="67">
 
-	<br> </br>
-	
+		<br> </br>
+		
 &nbsp;	<img src="cuties/2.jpeg" alt="cutiepie" width="67" height="67">
 
-	<br> </br>
+		<br> </br>
 
 <img src="cuties/1.jpeg" width="67" height="67" alt="erm"/>
 
-	<br> </br>
+		<br> </br>
 
-	<br> </br>
+		<br> </br>
 
 <video width="360" height="480" controls playsinline>
-	<source src="cuties/baby.mp4" type="video/mp4">
+		<source src="cuties/baby.mp4" type="video/mp4">
 </video>
 
-</body>
-
-<br> </br>
-
-<body>
-	<h1> spaces </h1>
+<h1> spaces </h1>
 <img src="https://i.pinimg.com/originals/15/29/d9/1529d9fdae1672c35987fc67479a99e3.jpg" width="100" height="100">
 
-</body>
+	</body>
+</div>
 
 </html>
